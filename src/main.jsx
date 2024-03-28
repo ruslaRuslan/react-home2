@@ -47,6 +47,7 @@ function a({imgUrl, ad}) {
 
 ReactDOM.createRoot(rootElement).render(
   <>
+  <a></a>
     {a({
       ad: "Ruslan", imgUrl: "https://images.unsplash.com/photo-1707026791615-3692b538cefa?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D"
     })}
@@ -55,5 +56,4 @@ ReactDOM.createRoot(rootElement).render(
     })}
 
   </>
-
 )
