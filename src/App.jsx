@@ -39,25 +39,25 @@
 // ----------------------------------------------------------------------------------------------------------------------------
 
 import Button from "./components/Button"
-import React from "react"
-
+import Header from "./components/Header"
+import Home from "./Home"
 function App() {
     return (
 
         <>
-            <React.Fragment>
+            <Header title="hello world" />
 
-                <Button
-                    title="click me"
-                    text="salam react-a xos geldin"
-                />
-                <Button
-                    title="click me2"
-                    text="salam react-a xos geldin2"
-                />
+            <Button
+                title="click me"
+                text="salam react-a xos geldin"
+            />
+            <Button
+                title="click me2"
+                text="salam react-a xos geldin2"
+            />
 
-            </React.Fragment>
 
+            <Home />
         </>
 
     )
