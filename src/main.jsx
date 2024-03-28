@@ -26,7 +26,7 @@ function a() {
 
 ReactDOM.createRoot(rootElement).render(
   <div>
-    a()
+    {a()}
   </div>
 
 )
