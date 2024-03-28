@@ -1,8 +1,8 @@
-function Button({ title }) {
+function Button({ title, text }) {
     return (
         <button
             onClick={() => {
-                alert('Ruslan Salam')
+               console.log(text)
             }}
         >
             {title}

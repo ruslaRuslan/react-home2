@@ -39,12 +39,27 @@
 // ----------------------------------------------------------------------------------------------------------------------------
 
 import Button from "./components/Button"
+import React from "react"
 
 function App() {
     return (
+
         <>
-            <Button title="click me" />
+            <React.Fragment>
+
+                <Button
+                    title="click me"
+                    text="salam react-a xos geldin"
+                />
+                <Button
+                    title="click me2"
+                    text="salam react-a xos geldin2"
+                />
+
+            </React.Fragment>
+
         </>
+
     )
 }
 
